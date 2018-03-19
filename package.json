@@ -1,0 +1,72 @@
+{
+  "author": "Dean Merchant",
+  "dependencies": {
+    "jest-matcher-utils": "22.4.0"
+  },
+  "description": "A jest matcher to ensure a react component will render",
+  "devDependencies": {
+    "@types/enzyme": "3.1.9",
+    "@types/jest": "22.2.0",
+    "@types/jest-get-type": "21.0.0",
+    "@types/jest-matcher-utils": "21.0.1",
+    "@types/lodash": "4.14.105",
+    "@types/react": "16.0.40",
+    "@types/react-dom": "16.0.4",
+    "codecov": "3.0.0",
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1",
+    "jest": "22.4.2",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "ts-jest": "22.4.1",
+    "tslint": "5.9.1",
+    "tslint-react": "3.5.1",
+    "typescript": "2.7.2"
+  },
+  "peerDependencies": {
+    "enzyme": "3.x",
+    "jest": "22.x",
+    "react": "16.x"
+  },
+  "files": [
+    "dist"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}"
+    ],
+    "coverageDirectory": "./coverage/",
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/src/common-types.ts",
+      "<rootDir>/src/index.ts"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ],
+    "setupTestFrameworkScriptFile": "./setupTestFramework.js",
+    "testEnvironment": "node",
+    "testMatch": [
+      "<rootDir>/src/**/*.test.tsx"
+    ],
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    }
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "name": "jest-to-render-without-error",
+  "repository": "git@github.com:Dean177/jest-to-match-shape-of.git",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "dev": "tsc --noEmit --watch",
+    "lint": "tslint ./src/**/*.ts",
+    "prepublish": "yarn build && yarn lint && yarn test",
+    "report-coverage": "codecov",
+    "test": "jest"
+  },
+  "version": "0.1.0"
+}
