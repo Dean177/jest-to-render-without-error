@@ -59,7 +59,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "name": "jest-to-render-without-error",
-  "repository": "git@github.com:Dean177/jest-to-match-shape-of.git",
+  "repository": "git@github.com:Dean177/jest-to-render-without-error.git",
   "scripts": {
     "build": "rm -rf dist && tsc",
     "dev": "tsc --noEmit --watch",
