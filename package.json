@@ -6,7 +6,7 @@
   "description": "A jest matcher to ensure a react component will render",
   "devDependencies": {
     "@types/enzyme": "3.1.9",
-    "@types/jest": "22.2.0",
+    "@types/jest": "22.2.1",
     "@types/jest-get-type": "21.0.0",
     "@types/jest-matcher-utils": "21.0.1",
     "@types/lodash": "4.14.105",
