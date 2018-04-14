@@ -37,13 +37,13 @@
   dependencies:
     chalk "^2.2.0"
 
-"@types/jest@22.2.0":
-  version "22.2.0"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-22.2.0.tgz#55ce83139f7ad1b48b414c3927746614c6963c0f"
+"@types/jest@22.2.1":
+  version "22.2.1"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-22.2.1.tgz#fe798757afc13880e03e3644a3448d7b3dd878d8"
 
-"@types/lodash@4.14.105":
-  version "4.14.105"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.105.tgz#9fcc4627a1f98f8f8fce79ddb2bff4afd97e959b"
+"@types/lodash@4.14.106":
+  version "4.14.106"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.106.tgz#6093e9a02aa567ddecfe9afadca89e53e5dce4dd"
 
 "@types/node@*":
   version "9.4.7"
@@ -3549,9 +3549,9 @@ trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
 
-ts-jest@22.4.2:
-  version "22.4.2"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-22.4.2.tgz#2137bc0899b14dfb1d58257ee10b18ab8a2d92c5"
+ts-jest@22.4.3:
+  version "22.4.3"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-22.4.3.tgz#5c06b89359e598d97f08802936ea400be555a9d1"
   dependencies:
     babel-core "^6.26.0"
     babel-plugin-istanbul "^4.1.4"
