@@ -1,7 +1,7 @@
 {
   "author": "Dean Merchant",
   "dependencies": {
-    "jest-matcher-utils": "22.4.0"
+    "jest-matcher-utils": "23.0.0"
   },
   "description": "A jest matcher to ensure a react component will render",
   "devDependencies": {
