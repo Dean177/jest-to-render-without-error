@@ -9,14 +9,14 @@
     "@types/jest": "22.2.1",
     "@types/jest-get-type": "21.0.0",
     "@types/jest-matcher-utils": "21.0.1",
-    "@types/lodash": "4.14.106",
+    "@types/lodash": "4.14.107",
     "@types/react": "16.0.40",
     "@types/react-dom": "16.0.4",
     "codecov": "3.0.0",
     "enzyme": "3.3.0",
     "enzyme-adapter-react-16": "1.1.1",
     "jest": "22.4.2",
-    "react": "16.3.1",
+    "react": "16.3.2",
     "react-dom": "16.3.1",
     "ts-jest": "22.4.3",
     "tslint": "5.9.1",
@@ -59,7 +59,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "name": "jest-to-render-without-error",
-  "repository": "git@github.com:Dean177/jest-to-match-shape-of.git",
+  "repository": "git@github.com:Dean177/jest-to-render-without-error.git",
   "scripts": {
     "build": "rm -rf dist && tsc",
     "dev": "tsc --noEmit --watch",
@@ -68,5 +68,5 @@
     "report-coverage": "codecov",
     "test": "jest"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
