@@ -1,27 +1,27 @@
 {
   "author": "Dean Merchant",
   "dependencies": {
-    "jest-matcher-utils": "22.4.0"
+    "jest-matcher-utils": "23.6.0"
   },
   "description": "A jest matcher to ensure a react component will render",
   "devDependencies": {
-    "@types/enzyme": "3.1.9",
-    "@types/jest": "22.2.1",
+    "@types/enzyme": "3.1.14",
+    "@types/jest": "23.3.3",
     "@types/jest-get-type": "21.0.0",
     "@types/jest-matcher-utils": "21.0.1",
-    "@types/lodash": "4.14.107",
-    "@types/react": "16.0.40",
-    "@types/react-dom": "16.0.4",
-    "codecov": "3.0.0",
-    "enzyme": "3.3.0",
-    "enzyme-adapter-react-16": "1.1.1",
-    "jest": "22.4.2",
-    "react": "16.3.2",
-    "react-dom": "16.3.1",
-    "ts-jest": "22.4.3",
-    "tslint": "5.9.1",
-    "tslint-react": "3.5.1",
-    "typescript": "2.7.2"
+    "@types/lodash": "4.14.116",
+    "@types/react": "16.4.16",
+    "@types/react-dom": "16.0.8",
+    "codecov": "3.1.0",
+    "enzyme": "3.7.0",
+    "enzyme-adapter-react-16": "1.6.0",
+    "jest": "23.6.0",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "ts-jest": "23.10.4",
+    "tslint": "5.11.0",
+    "tslint-react": "3.6.0",
+    "typescript": "3.1.1"
   },
   "peerDependencies": {
     "enzyme": "3.x",
